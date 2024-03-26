@@ -1,0 +1,1106 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden
+}
+
+.content {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.main-container {
+  background-image: url('images/40516a68493bd2891b90de759bcbc560.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+  padding: 0 320px 0 320px;
+}
+
+.main-container .content {
+  height: 100%;
+  position: relative;
+}
+
+.main-container header {
+  height: 74px;
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-container header .social-media {
+  display: flex;
+}
+
+.main-container header .social-media .icon {
+  margin-right: 40px;
+}
+
+.main-container header .social-media .instagram {
+  margin: 0;
+}
+
+.main-container .banner {
+  height: 369px;
+  width: 624px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 624 369" xmlns="http://www.w3.org/2000/svg"><path d="M624 0H49L0 50V369H574L624 319V0Z" fill="%23F8F200"/></svg>');
+  padding: 70px;
+}
+
+.main-container .banner h3 {
+  font-family: 'Archangelsk';
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 25px 0;
+}
+
+.main-container .banner button {
+  width:272px;
+  height:78px;
+  background-color: #000;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #f8f200;
+  border: 0;
+  padding: 19px, 50px, 19px, 50px;
+}
+
+button {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container-description {
+  padding: 70px 320px;
+}
+
+.container-description .text {
+  width: 996px;
+  height: 100%;
+}
+
+.container-description h3 {
+  font-family: 'Archangelsk';
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 25px 0;
+}
+
+.container-description p {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000088;
+  width: 952px;
+  height: 100%;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+span {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(82, 190, 220, 1);
+}
+
+.container-description .images {
+  display: flex;
+  margin-top: 70px;
+}
+
+.container-description .images .images-left .image1 {
+  background-image: url('images/c035da59c21a6ae999fdb8660cc9a4ce.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 196px;
+  width: 460px;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.container-description .images .images-left .image2 {
+  background-image: url('images/732233ec3c7b0acf70041615c8404563.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 196px;
+  width: 460px;
+  position: relative;
+}
+
+.container-description .images .image {
+  background-image: url('images/8dfd066535b9f02d859e2bd951f27644.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 424px;
+  width: 788px;
+  position: relative;
+}
+
+.container-description .images .images-left {
+  margin-right: 32px;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 40px;
+  border-bottom: 50px solid #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-right: 50px solid transparent;
+  border-left: 40px;
+  border-top: 50px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.container-contest {
+  background-color: #000;
+  padding: 0 320px 70px 320px;
+}
+
+.effect {
+  background-image: url('images/55da4578244748535a706ce38f0e8822.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 7vh;
+  width: 100%;
+}
+
+.container-contest .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.container-contest .title h3 {
+  font-family: 'Archangelsk';
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin: 0 0 0 32px;
+  white-space: nowrap;
+}
+
+.container-contest p {
+  color: #fff;
+  white-space: nowrap;
+  margin: 0 0 25px 0;
+}
+
+.container-contest .left-content .name {
+  margin-top: 98px;
+}
+
+.container-contest .left-content input {
+  height: 35px;
+  width: 460px;
+  border: 0;
+  border-bottom: 1px solid #777777;
+  background-color: #00000000;
+  padding: 0 0 13px 0;
+  outline: 0;
+  margin-bottom: 35px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.container-contest .left-content input::placeholder {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+.container-contest .left-content .screenshot {
+  width: 460px;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.container-contest .left-content .screenshot h4 {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 35px;
+  left: 140px;
+  color: #fff;
+  z-index: 2;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.container-contest .left-content .screenshot .format {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 65px;
+  left: 192px;
+  margin: 0;
+}
+
+.container-contest .left-content button {
+  background-color: #F8F200;
+  border: 0;
+  height: 59px;
+  width: 192px;
+  margin-bottom: 15px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.container-contest .left-content .conditions {
+  display: flex;
+  align-items: center;
+}
+
+.container-contest .left-content .conditions .arrow {
+  margin-right: 10px;
+}
+
+.container-contest .left-content .conditions p {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.right-left {
+  display: flex;
+}
+
+.container-contest .right-content {
+  display: flex;
+  height: 456px;
+  width: 788px;
+  position: relative;
+}
+
+.container-contest .right-content .yellow {
+  position: absolute;
+  z-index: 1;
+}
+
+.container-contest .right-content .blue {
+  position: absolute;
+  z-index: 1;
+  left: 340px;
+  transform: rotateX(-180deg);
+}
+
+.container-contest .right-content .xbox {
+  position: absolute;
+  top: 23px;
+  left: 165px;
+  z-index: 2;
+}
+
+.container-contest .right-content .ps5 {
+  position: absolute;
+  top: 25px;
+  left: 495px;
+  z-index: 2;
+}
+
+.effect2 {
+  background-image: url('images/cea1f798f38d1b4aeeb60cd187d210cb.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 7vh;
+  width: 100%;
+}
+
+.container-monitor {
+  padding: 70px 320px;
+  background-color: #F8F200;
+}
+
+.container-monitor .content {
+  display: flex;
+}
+
+.container-monitor .left-content {
+  margin-right: 32px;
+}
+
+.container-monitor .photo-monitor img {
+  margin-bottom: 26px;
+  height: 430px;
+  width: 624px;
+}
+
+.container-monitor .left-content .logos {
+  display: flex;
+  align-items: center;
+  padding: 0 42px;
+  width: 624px;
+}
+
+.container-monitor .left-content .logo {
+  margin-right: 25px;
+}
+
+.container-monitor .left-content .cyberpunk {
+  margin: 0;
+}
+
+.container-monitor .right-content h3 {
+  font-family: 'Archangelsk';
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 25px 0; 
+}
+
+.container-monitor .right-content ul {
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+.container-monitor .right-content ul li .icon {
+  margin-right: 10px;
+}
+
+ul li .icon {
+  margin-right: 10px;
+}
+
+ul li svg {
+  height: 32px;
+  width: 32px;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left; 
+}
+
+.container-monitor .right-content ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left; 
+}
+
+.container-monitor .right-content button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  border: 0;
+  color: #F8F200;
+  height: 59px;
+  width: 194px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;  
+}
+
+.container-about-cyberpunk {
+  background-color: #000;
+}
+
+.container-about-cyberpunk .content {
+  width: 1920px;
+  display: flex;
+}
+
+.container-about-cyberpunk .left-content img {
+  width: 944px;
+  height: 717px;
+}
+
+.container-about-cyberpunk .right-content {
+  padding: 70px 0 0 32px;
+}
+
+.container-about-cyberpunk .right-content h3 {
+  font-family: 'Archangelsk';
+  font-size: 62px;
+  font-weight: 600;
+  line-height: 63px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  margin: 0 0 25px 0;
+}
+
+.container-about-cyberpunk .right-content span {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.container-about-cyberpunk .right-content ul {
+  margin-bottom: 70px;
+  padding: 0;
+} 
+
+.container-about-cyberpunk .right-content ul li {
+  color: #fff;
+  white-space: nowrap;
+}
+
+.container-about-cyberpunk .right-content .kind-platforms {
+  margin-top: 25px;
+  display: flex;
+}
+
+.container-about-cyberpunk .right-content .kind-platforms .left {
+  margin-right: 80px;
+}
+
+.container-about-cyberpunk .right-content .kind-platforms .icon {
+  margin-bottom: 50px;
+}
+
+.container-about-cyberpunk .right-content .kind-platforms .ps4 {
+  display: flex;
+  align-items: center;
+}
+
+.container-about-cyberpunk .right-content .kind-platforms .ps4 .name {
+  margin-left: 15px;
+}
+
+footer {
+  padding: 13px 320px;
+}
+
+footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .left, footer .right {
+  display: flex;
+}
+
+footer .logo-cyberpunk {
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+footer .logo-cdprojectred {
+  cursor: pointer;
+}
+
+footer .right .p1 {
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+footer .right .p2 {
+  cursor: pointer;
+}
+
+footer .right .p1:hover {
+  text-decoration: underline;
+  transition: text-decoration 0.2s linear;
+}
+footer .right .p2:hover {
+  text-decoration: underline;
+  transition: text-decoration 0.2s linear;
+}
+
+.under-footer {
+  background-color: #000;
+}
+
+.under-footer .content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 13px 0;
+}
+
+.under-footer .content .tags {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center; 
+  color: #fff; 
+}
+
+.main-container .logo svg {
+  height: 74px;
+  width: 296px;
+}
+
+.main-container header .social-media .icon {
+  height: 30px;
+  width: 30px;
+}
+
+.media {
+  display: none;
+}
+
+.container-contest .right-content .photo img, .container-contest .right-content .photo svg{
+  width:296px;
+  height:351px;
+}
+
+.container-contest .right-content .blue img,
+.container-contest .right-content .yellow img {
+  height: 456px;
+  width: 460px;
+}
+
+.container-contest .left-content .screenshot svg,
+  .container-contest .left-content .screenshot rect {
+    height: 119px;
+    width: 459px;
+  }
+
+  .container-monitor .left-content .hp svg {
+    height: 80px;
+    width: 80px;
+  }
+
+  .container-monitor .left-content .cross svg {
+    height: 21px;
+    width: 92px;
+  }
+
+  .container-monitor .left-content .cyberpunk svg {
+    height: 80px;
+    width: 320px;
+  }
+
+  footer .logo-cyberpunk svg {
+    height: 74px;
+    width: 296px;
+  }
+
+  footer .logo-cdprojectred svg {
+    height: 74px;
+    width: 173px;
+  }
+
+@media (max-width:320px) {
+
+  .content {
+    width: 320px;
+  }
+
+  .main-container {
+    height: 713px;
+    padding: 0px;
+  }
+
+  .main-container .logo svg {
+    width: 200px; 
+    height: 74px;
+  }
+
+  .main-container header {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    width: 320px;
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .main-container header .social-media .icon {
+    height: 25px;
+    width: 25px;
+    margin-right: 30px;
+  }
+
+  .main-container header .social-media .instagram {
+    margin: 0;
+  }
+
+  .main-container .banner {
+    height: 207px;
+    width: 320px;
+    padding: 30px 40px 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    bottom: -50px;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 207" fill="none"%3E%3Cpath d="M320 0H49L0 50V207H270L320 157V0Z" fill="%23F8F200"%3E%3C/path%3E%3C/svg%3E');
+}
+
+
+  .main-container .banner h3 {
+    font-family: 'Archangelsk';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center; 
+  }
+
+  .main-container .banner button {
+    height: 60px;
+    width: 244px;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .br1 {
+    display: none;
+  }
+
+  .media {
+    display: block;
+  }
+
+  .container-description {
+    margin-top: 50px;
+    padding: 50px 0 70px 0;
+  }
+
+  .container-description .text h3 {
+    font-family: 'Archangelsk';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;    
+  }
+
+  .container-description .text {
+    padding: 12px;
+    width: 320px;
+  }
+
+  .container-description .text  span {
+    font-family:'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .container-description .text p {
+    width: 100%;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .container-description .images .images-left {
+    margin: 0 0 32px 0;
+  }
+
+  .container-description .images {
+    display: block;
+  }
+
+  .container-description .images .images-left .image1 {
+    width: 320px;
+  }
+
+  .container-description .images .images-left .image2 {
+    width: 320px;
+  }
+
+  .container-description .images .image {
+    width: 320px;
+  }
+
+  .container-contest {
+    padding: 220px 12px;
+    position: relative;
+  }
+
+  .container-contest .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-left {
+    flex-direction: column;
+  }
+
+  .container-contest .right-content {
+    height: 200px;
+    width: 320px;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+  }
+
+  .container-contest .right-content .yellow {
+    top: 48px;
+    left: 3px;
+  }
+
+  .container-contest .right-content .xbox {
+    top: 55px;
+    left: 50px;
+  }
+
+  .container-contest .right-content .blue {
+    top: 48px;
+    left: 166px;
+  }
+
+  .container-contest .right-content .ps5 {
+    top: 60px;
+    left: 210px;
+  }
+
+  .container-contest .right-content .photo img, .container-contest .right-content .photo svg {
+    width: 85px;
+    height: 101px;
+  }
+
+  .container-contest .right-content .blue img, .container-contest .right-content .yellow img {
+    height: 131px;
+    width: 132px;
+  }
+
+  .container-contest .title h3 {
+    font-family: 'Archangelsk';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  span {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .container-contest p {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .container-contest .text .title .sale-icon {
+    display: none;
+  }
+  
+  .container-contest .sale-icon2 {
+    position: absolute;
+    top: 6px;
+    left: 12px;
+  }
+
+  .container-contest .left-content input {
+    width: 296px;
+  }
+
+  .container-contest .left-content .screenshot svg,
+  .container-contest .left-content .screenshot rect {
+    height: 150px;
+    width: 368px;
+  }
+
+  .container-contest .left-content .screenshot h4 {
+    top: 75px;
+    left: 55px;
+  }
+
+  .container-contest .left-content .screenshot .format {
+    display: none;
+  }
+
+  .container-contest .left-content button {
+    height: 60px;
+    width: 182px;
+    padding: 15px, 50px, 15px, 50px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+  }
+
+  .container-monitor {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .container-monitor .content {
+    display: block;
+  }
+
+  .container-monitor .photo-monitor img {
+    height: 204px;
+    width: 296px;
+  }
+
+  .container-monitor .left-content .hp svg {
+    height: 44px;
+    width: 44px;
+  }
+
+  .container-monitor .left-content .cross svg {
+    height: 11px;
+    width: 50px;
+  }
+
+  .container-monitor .left-content .cyberpunk svg {
+    height: 44px;
+    width: 176px;
+  }
+
+  .container-monitor .left-content .logos {
+    padding: 0;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+
+  .container-monitor .left-content .logo {
+    margin-right: 14px;
+  }
+
+  .container-monitor .right-content h3 {
+    font-family: 'Archangelsk';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;    
+  }
+
+  .container-monitor p  {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 296px;
+  }
+
+  .container-monitor .right-content ul li {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;    
+  }
+
+  ul li svg {
+    height: 24px;
+    width: 24px;
+  }
+
+  .container-monitor .right-content button {
+    height: 60px;
+    width: 184px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;    
+  }
+
+  .container-about-cyberpunk .content {
+    display: block;
+    width: 320px;
+  }
+
+  .container-about-cyberpunk .right-content {
+    padding: 40px 12px;
+  }
+
+  .container-about-cyberpunk .left-content img {
+    height: 198px;
+    width: 320px;
+  }
+
+  .container-about-cyberpunk .right-content h3 {
+    font-family: 'Archangelsk';
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;    
+  }
+
+  .container-about-cyberpunk .right-content span {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;    
+  }
+
+  .container-about-cyberpunk .right-content .kind-platforms .left {
+    margin-right: 56px;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  footer .content {
+    display: block;
+  }
+
+  footer .left {
+    padding: 40px 0 0 0;
+  }
+
+  footer .left, footer p {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer .right {
+    display: block;
+  }
+
+  footer .logo-cyberpunk svg {
+    height: 50px;
+    width: 200px;
+  }
+
+  footer .logo-cyberpunk {
+    margin: 0;
+  }
+
+  footer .logo-cdprojectred svg {
+    height: 50px;
+    width: 116px;
+    margin-bottom: 25px;
+  }
+
+  footer .right .p1 {
+    margin: 0;
+  }
+
+  footer .right .p2 {
+    margin: 15px 0 0 0;
+  }
+
+  footer .right {
+    background-color: #E6E6E6;
+    padding: 25px 0;
+  }
+}
