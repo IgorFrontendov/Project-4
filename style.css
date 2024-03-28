@@ -683,6 +683,9 @@ footer .right .p2:hover {
 
 @media (max-width:320px) {
 
+  body {
+    overflow-x: hidden;
+  }
   .content {
     width: 320px;
   }
